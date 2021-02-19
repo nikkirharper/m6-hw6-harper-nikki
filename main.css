@@ -68,3 +68,21 @@ section {
     font-size: 7rem;
     padding: 63px 0; 
 }
+
+@media(min-width: 850px) {
+    .container {
+        display:flex;
+        padding-top: 30px; 
+    }
+
+    h1 {
+        padding: 35px 0;
+        font-size: 4rem;
+        line-height: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem; 
+        padding-top: 40px; 
+    }
+}
