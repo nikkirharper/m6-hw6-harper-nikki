@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+header {
+    background-color: #6003c3;
+    width: 100%; 
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1 { 
+    color: white;
+    padding: 50px 0; 
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    }
