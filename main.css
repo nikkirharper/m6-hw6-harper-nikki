@@ -34,3 +34,37 @@ h2 {
     text-align: center;
     padding-top: 20px;
 }
+
+section {
+    width: 250px;
+    height: 250px;
+    margin: 25px auto; 
+    border: #6003c3; 
+    border-width: 10px; 
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.section1 {
+    background-color: #fcff00;
+}
+
+.section2 {
+    background-color: #57ffc9; 
+}
+
+.section3 {
+    background-color: #a5ff01;
+}
+
+ h3 {
+    color: #6003c3;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    padding: 63px 0; 
+}
