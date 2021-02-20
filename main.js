@@ -55,4 +55,17 @@ box3[0].addEventListener('click',
 );
 
 
+//Click on any of the boxes and display start over button 
+var boxes = document.getElementsByClassName('box');
+var button = document.getElementById('button'); 
+
+function buttonAppear() {
+    button.classList.remove('hide'); 
+}; 
+
+for(i = 0; i < boxes.length; i++) {
+    boxes[i].addEventListener('click', buttonAppear);
+}
+
+
 

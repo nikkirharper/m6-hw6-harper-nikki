@@ -8,6 +8,11 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+body {
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 header {
     background-color: #6003c3;
@@ -19,17 +24,11 @@ header {
 h1 { 
     color: white;
     padding: 50px 0; 
-    font-family: bebas-neue,sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 3rem;
 }
 
 h2 {
     color: #6003c3;
-    font-family: bebas-neue,sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 1.3rem; 
     text-align: center;
     padding-top: 20px;
@@ -66,22 +65,35 @@ section {
 
  h3 {
     color: #6003c3;
-    font-family: bebas-neue,sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 7rem;
     padding: 63px 0; 
 }
 
 h4 {
     color: #e34040;
-    font-family: bebas-neue,sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 1.4rem;
     padding: 20px 0;
     text-align: center;
+}
 
+#block {
+    display: block;
+    width: 100%; 
+    margin: 15px 42%;
+    padding-bottom: 50px; 
+}
+
+#button {
+    background-color: #6003c3;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 15px;
+    margin: 20px 0; 
+}
+
+.hide {
+    display: none;
 }
 
 @media(min-width: 850px) {
@@ -99,5 +111,9 @@ h4 {
     h2 {
         font-size: 1.8rem; 
         padding-top: 40px; 
+    }
+
+    #block {
+        margin: 15px 45%; 
     }
 }
