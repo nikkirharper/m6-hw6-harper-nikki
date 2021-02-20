@@ -73,6 +73,17 @@ section {
     padding: 63px 0; 
 }
 
+h4 {
+    color: #e34040;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
 @media(min-width: 850px) {
     #container {
         display:flex;
