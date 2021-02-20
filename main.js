@@ -22,7 +22,6 @@ for(i = 0; i < boxes.length; i++) {
 //Click on box #1 and message appears 
 var box1 = document.getElementsByClassName('section1');
 var newMessage = document.createElement('h4');
-var myNode = document.getElementById('wrapper'); 
 
 box1[0].addEventListener('click', 
     function() {
@@ -32,10 +31,9 @@ box1[0].addEventListener('click',
 ); 
 
 
-//Click on box #1 and message appears
+//Click on box #2 and message appears
 var box2 = document.getElementsByClassName('section2');
 var newMessage2 = document.createElement('h4');
-var myNode = document.getElementById('wrapper'); 
 
 box2[0].addEventListener('click', 
     function() {
@@ -44,6 +42,17 @@ box2[0].addEventListener('click',
     }, false
 );
 
+
+//Click on box #3 and message appears
+var box3 = document.getElementsByClassName('section3');
+var newMessage3 = document.createElement('h4');
+
+box3[0].addEventListener('click', 
+    function() {
+        newMessage3.innerHTML = 'Oops, butter luck next time';
+        document.getElementById('wrapper').appendChild(newMessage3);
+    }, false
+);
 
 
 
