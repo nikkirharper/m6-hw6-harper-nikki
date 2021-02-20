@@ -38,7 +38,7 @@ h2 {
 section {
     width: 250px;
     height: 250px;
-    margin: 25px auto; 
+    margin: 25px auto;
     border: #6003c3; 
     border-width: 10px; 
     border-radius: 5px;
@@ -58,6 +58,10 @@ section {
 
 .section3 {
     background-color: #a5ff01;
+}
+
+.red {
+    background-color: #e34040; 
 }
 
  h3 {
